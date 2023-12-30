@@ -1,12 +1,8 @@
 #!/bin/python3
 
-import codecs
 
-f=codecs.open("input.txt", 'r')
+with open('/home/blake/aoc_2022/day_1/input.txt', 'r') as file:
+    for line in file:
+        elves = line.strip().split()
+        print(elves)
 
-while 
-for numbers in f:
-    number = int(numbers)
-    if number >= 1:
-        total = sum(number)
-        print(total)

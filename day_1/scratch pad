@@ -1,0 +1,4 @@
+if numbers != " ":
+            elves = []
+            elves.append(numbers)
+            print(elves)
